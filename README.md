@@ -69,8 +69,3 @@ Al ejecutar el programa, se muestra el siguiente menú:
 6. Salir
 
 
-
-
-👨‍💻 Autor
-
-Proyecto desarrollado como práctica académica para reforzar conocimientos de Programación Orientada a Objetos y organización modular en Python.
