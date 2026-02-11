@@ -1,9 +1,9 @@
-## Sistema de Gestión de Inventarios
-# Autor: Fernanda Vaca
+# Sistema de Gestión de Inventarios
+## Autor: Fernanda Vaca
 
 Este proyecto consiste en el desarrollo de un Sistema de Gestión de Inventarios en Python, diseñado para administrar los productos de una tienda mediante una aplicación de consola.
 
-# El sistema permite:
+## El sistema permite:
 
 - Añadir productos
 - Eliminar productos
@@ -13,7 +13,7 @@ Este proyecto consiste en el desarrollo de un Sistema de Gestión de Inventarios
 
 El desarrollo aplica los principios fundamentales de la Programación Orientada a Objetos (POO) y mantiene una arquitectura modular organizada por responsabilidades.
 
-# Estructura del Proyecto
+## Estructura del Proyecto
 mi_inventario/
 │
 ├── modelos/
@@ -24,30 +24,30 @@ mi_inventario/
 │
 └── main.py
 
-# Diseño del Sistema
-# Clase Producto
+## Diseño del Sistema
+## Clase Producto
 
 Representa la entidad principal del sistema.
 
-# Atributos privados:
+## Atributos privados:
 - ID (único)
 - Nombre
 - Cantidad
 - Precio
 
-# Métodos:
+## Métodos:
 - Constructor
 - Getters y setters
 - Método __str__ para mostrar información formateada
 - Se aplica encapsulamiento utilizando atributos privados.
 
-# Clase Inventario
+## Clase Inventario
 
 - Gestiona todos los productos.
 - Estructura principal:
 - Lista de objetos Producto
 
-# Métodos implementados:
+## Métodos implementados:
 
 - agregar_producto()
 - eliminar_producto()
@@ -57,7 +57,7 @@ Representa la entidad principal del sistema.
 
 Se valida que no existan IDs duplicados antes de añadir un producto.
 
-# Funcionamiento del Sistema
+## Funcionamiento del Sistema
 
 Al ejecutar el programa, se muestra el siguiente menú:
 
